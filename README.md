@@ -1,9 +1,9 @@
 # Ultrasonic Radar and Display System (Tiva C)
 
 **Language:** C  
-**Microcontroller:** TI Tiva C Series TM4C123GH6PM (ARM Cortex-M4)  
-**Hardware:** HC-SR04 Ultrasonic Sensor, SSD1306 OLED (or LCD), Servo Motor  
-**Tools:** Keil uVision / Code Composer Studio (CCS), TivaWare SDK
+**Microcontroller:** TI Tiva C Series EK-TM4C1294XL (ARM Cortex-M4)  
+**Hardware:** HC-SR04 Ultrasonic Sensor, LCD, Servo Motor  
+**Tools:** Keil uVision
 
 ---
 
@@ -19,8 +19,8 @@ This project is an embedded real-time radar system that utilizes an ultrasonic s
 * **Non-Blocking I/O:** Utilised **Interrupt Service Routines (ISRs)** for sensor triggering and echo detection, ensuring the CPU remains available for display updates and data processing.
 * **Signal Filtering:** Applied basic digital filtering (moving average) to stabilize sensor readings and reduce noise caused by sonic reflections.
 
-
-
+### Real-Time Radar Visualisation
+* **Fine control of Motor Position"" Potentiometer controls the PWM signal, thereby accurately adjusting the orientation of the servo motor.
 ### Real-Time Radar Visualisation
 * **Dynamic Sweep Display:** Renders a 180-degree "sweep" animation on the display, mapping polar coordinates (angle/distance) to Cartesian pixels.
 
