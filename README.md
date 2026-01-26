@@ -20,7 +20,7 @@ This project is an embedded real-time radar system that utilizes an ultrasonic s
 * **Signal Filtering:** Applied basic digital filtering (moving average) to stabilize sensor readings and reduce noise caused by sonic reflections.
 
 ### Real-Time Radar Visualisation
-* **Fine control of Motor Position"" Potentiometer controls the PWM signal, thereby accurately adjusting the orientation of the servo motor.
+* **Fine control of Motor Position** Potentiometer controls the PWM signal, thereby accurately adjusting the orientation of the servo motor.
 ### Real-Time Radar Visualisation
 * **Dynamic Sweep Display:** Renders a 180-degree "sweep" animation on the display, mapping polar coordinates (angle/distance) to Cartesian pixels.
 
